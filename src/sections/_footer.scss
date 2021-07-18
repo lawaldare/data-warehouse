@@ -61,10 +61,17 @@
     font-size: 16px;
     cursor: pointer;
     filter: drop-shadow(0px 5px rgba(75, 93, 104, 0.1));
+    transition: all 0.7s;
+
     img {
       width: 20px;
       height: 14px;
       margin-left: 20px;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: var(--primary-color);
     }
   }
 
@@ -128,6 +135,14 @@
       border-radius: 50%;
       background-color: #e9e9ee;
       margin-right: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &--icon {
+      height: 25px;
+      width: 25px;
     }
   }
 }
