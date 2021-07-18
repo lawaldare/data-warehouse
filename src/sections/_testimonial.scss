@@ -1,0 +1,96 @@
+.testimonial {
+  background-image: linear-gradient(100deg, #9b69e2ce 63%, #471d81bc);
+  border-radius: 50px;
+  margin-top: 150px;
+  padding: 109px 0 60px 93px;
+  overflow: hidden;
+
+  &__text {
+    font-family: "helvetica";
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 100px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    // overflow-x: scroll;
+  }
+
+  &__card {
+    min-width: 645px;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 60px 70px 50px 70px;
+    margin-right: 20px;
+    box-shadow: 0px 20px 0px 1px #8a56db;
+    -webkit-box-shadow: 0px 20px 0px 1px #8a56db;
+    -moz-box-shadow: 0px 20px 0px 1px #8a56db;
+    display: flex;
+    align-items: start;
+  }
+
+  &__image {
+    margin-right: 30px;
+  }
+
+  &__content {
+    .name {
+      font-family: "avenir";
+      font-size: 18px;
+      color: var(--primary-text-color);
+      letter-spacing: 1px;
+      display: block;
+    }
+
+    .role {
+      font-family: "avenir";
+      font-size: 14px;
+      color: var(--primary-color);
+      letter-spacing: 1px;
+      display: block;
+    }
+
+    .description {
+      font-family: "avenir";
+      font-size: 18px;
+      color: var(--secondary-text-color);
+      letter-spacing: 1px;
+      display: block;
+    }
+  }
+
+  &__footer {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .count {
+      display: flex;
+      align-items: center;
+
+      &__item {
+        background-color: #fff;
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        margin-right: 10px;
+
+        &--active {
+          height: 8px;
+          width: 8px;
+          background-color: var(--secondary-color);
+        }
+      }
+    }
+    .direction {
+      .right {
+        margin-right: 93px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

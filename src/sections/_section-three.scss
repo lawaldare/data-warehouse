@@ -1,0 +1,28 @@
+.section-three {
+  padding: 31.82px 92px 24.18px 11px;
+  background-color: rgba(240, 99, 184, 0.15);
+  margin-top: 200px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__right-side {
+    padding-left: 62px;
+  }
+
+  &__text {
+    font-family: "helvetica";
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--primary-text-color);
+    font-style: bold;
+  }
+
+  &__sub-text {
+    font-family: "avenir";
+    font-size: 18px;
+    color: var(--secondary-text-color);
+    line-height: 28px;
+  }
+}

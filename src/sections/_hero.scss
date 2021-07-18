@@ -1,0 +1,37 @@
+.hero {
+  position: relative;
+
+  &__text {
+    font-family: "Helvetica";
+    font-style: bold;
+    font-size: 80px;
+    color: var(--primary-text-color);
+    line-height: 88px;
+  }
+
+  &__sub-text {
+    font-size: 18px;
+    font-family: "avenir";
+    color: var(--secondary-text-color);
+    line-height: 28.8px;
+    font-weight: 500px;
+  }
+
+  &__image {
+    position: absolute;
+    right: -93px;
+    top: 154px;
+  }
+
+  &__cta {
+    border-radius: 50px;
+    font-family: "avenir";
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 16px 37px;
+    cursor: pointer;
+    margin-top: 66px;
+  }
+}
