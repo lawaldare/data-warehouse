@@ -96,12 +96,14 @@
     margin-left: 15px;
     margin-right: 15px;
     padding-left: 30px;
+    margin-top: 50px;
     &__card {
       background-image: linear-gradient(90deg, #fff 20%, #a576e6);
     }
   }
 
   .footer {
+    margin-top: 50px;
     &__top {
       flex-direction: column;
     }
@@ -131,6 +133,10 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    &__more-btn {
+      margin-right: unset;
     }
   }
 }

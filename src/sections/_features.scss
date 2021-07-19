@@ -16,6 +16,7 @@
     line-height: 28px;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   &__row {
@@ -23,7 +24,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
   }
 
   &__item {
@@ -49,18 +49,22 @@
 
   .search {
     background: url(../images/search-bg.svg) no-repeat;
+    background-size: cover;
   }
 
   .access {
     background: url(../images/access-bg.svg) no-repeat;
+    background-size: cover;
   }
 
   .print {
     background: url(../images/print-bg.svg) no-repeat;
+    background-size: cover;
   }
 
   .security {
     background: url(../images/security-bg.svg) no-repeat;
+    background-size: cover;
   }
 
   &__image {
