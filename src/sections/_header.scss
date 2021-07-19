@@ -1,3 +1,8 @@
+.active {
+  color: var(--primary-text-color) !important;
+  font-weight: bold !important;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
