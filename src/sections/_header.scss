@@ -95,6 +95,11 @@
     background-color: transparent;
   }
 
+  &__checkbox:checked + &__button-nav {
+    position: fixed;
+    right: 30px;
+  }
+
   &__checkbox:checked + &__button-nav .toggle-icon::after {
     top: 0;
     transform: rotate(-135deg);
