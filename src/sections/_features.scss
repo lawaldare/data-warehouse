@@ -48,22 +48,19 @@
   }
 
   .search {
-    background: url(../images/search-bg.svg) no-repeat ;
+    background: url(../images/search-bg.svg) no-repeat;
   }
 
   .access {
     background: url(../images/access-bg.svg) no-repeat;
-
   }
 
   .print {
     background: url(../images/print-bg.svg) no-repeat;
-
   }
 
   .security {
     background: url(../images/security-bg.svg) no-repeat;
-
   }
 
   &__image {
@@ -74,37 +71,31 @@
     &--a {
       top: -16px;
       right: 29px;
-      opacity: 0.4;
     }
 
     &--b {
       top: 68px;
       right: 112px;
-      opacity: 0.4;
     }
 
     &--c {
       top: 170px;
       right: 20px;
-      opacity: 0.4;
     }
 
     &--d {
       top: 14px;
       right: 20px;
-      opacity: 0.4;
     }
 
     &--e {
       top: -7px;
       right: 67px;
-      opacity: 0.4;
     }
 
     &--f {
       top: 313px;
       right: 20px;
-      opacity: 0.4;
     }
   }
 
